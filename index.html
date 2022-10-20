@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Roadtrip Sri Lanka</title>
+		
+		<link rel="stylesheet" href="style.css">
+		
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">	  
+		<link rel="stylesheet"  href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj">
+		</script>
+	</head>
+		
+	<body>
+		
+	<!----Navigation Bar---->
+	<section id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><img src="logo2.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#where-to-go">WHERE TO GO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#price">PACKAGES</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#Client-Reviews">CLIENT REVIEWS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT US</a>
+        </li>
+		<li></li><li></li><li></li><li></li><li></li><li></li><li></li><li>
+		</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+		<li>
+		<a href="http://localhost/WEbsite1/login.php" class="btn btn-dark" style="width:auto;">Log in</a>
+		</li>
+		<li>
+		<a href="http://localhost/WEbsite1/register.php" class="btn btn-dark"  style="width:auto;">Sign in</a>
+		</li>
+      </ul>
+    </div> 
+</nav>					
+</section>
+		
+<!----------Slideshow container---------->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpg" alt="" class="center">
+  <div class="text">ROADTRIP SRI LANKA</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img2.jpg" alt="" class="center">
+</div>
+
+<div class="mySlides fade">
+  <img src="img3.jpg" alt="" class="center">
+  <div class="text">ROADTRIP SRI LANKA</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img4.jpg" alt="" class="center">
+</div>
+	
+<div class="mySlides fade">
+  <img src="img5.jpg" alt="" class="center">
+  <div class="text">ROADTRIP SRI LANKA</div>
+</div>
+	
+<div class="mySlides fade">
+  <img src="img6.jpg" alt="" class="center">
+</div>
+	
+<div class="mySlides fade">
+  <img src="img7.jpg" alt="" class="center">
+  <div class="text">ROADTRIP SRI LANKA</div>
+</div>
+	
+<div class="mySlides fade">
+  <img src="img8.jpg" alt="" class="center">
+</div>
+	
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>	
+		
+<!-------About Us------->
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>ABOUT US</h2>
+<div class="about-content">
+	
+Roadtrip Sri Lanka is your trusted companion in this journey. We make your dream road trip come to a reality. We assure you that this road trip will be all about you. It will cover all your favourite places to go to in Sri Lanka. Food and the stay will be according to your likings. In one single platform, you can discover and book spot-on stays and experiences.
+Since 2018 Roadtrip Sri Lanka community of travel experts and local insiders have hand-picked Sri Lanka's best bits to share unbiased recommendations and travel stories, and curated collections of places to stay, hotels, rentals, things to do, and experiences that can be booked online.
+We are committed to making your Road Trip hassle-free for you.	
+	
+</div>
+</div>
+<div class="col-md-6 skills-bar">
+<!-------Our Progress------->
+<h2>OUR PROGRESS</h2>
+<p>Growth</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 74%;">74%</div>
+	</div>
+<p>Customer satisfaction</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 83%;">83%</div>
+	</div>
+<p>Booking rate</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 79%;">79%</div>
+	</div>
+<p>Cancellation rate</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 7%;">7%</div>
+	</div>	
+</div>
+</div>
+</div>
+</section>		
+<!-------Services------->
+<section id="services">
+<div class="container">
+<h1>OUR SERVICES</h1>
+	<div class="row services">
+	<div class="col-md-3 text-center">
+	<div class="icon">
+	<i class="material-icons">psychology</i>
+    </div>
+	<h3>Planing</h3>
+		<p>Plan your road trip route with Roadtrip Sri Lanka. Enter where you want to start and finish your road trip, and then discover the coolest places along the way. Our database includes  most fascinating places, making planning the unexpected easier than you thought. Most of what you find online will funnel you into the same places, filled with other travelers. But Roadtrip Sri Lanka helps you escape the tourist bubble and find the coolest stops.</p>
+</div>
+		
+		<div class="col-md-3 text-center">
+	<div class="icon">
+	<i class="material-icons">bookmark_add</i>
+    </div>
+	<h3>Booking</h3>
+		<p>Why go through the hassle when you can do the booking at home by just visiting our website. After considering your choices we will be providing you with different options with the entire payment plan. Also, you will have the chance to do further changes to the given options. Once the decision is made you can directly pay in advance and complete the booking.</p>
+</div>
+		
+		<div class="col-md-3 text-center">
+	<div class="icon">
+	<i class="material-icons">local_offer</i>
+    </div>
+	<h3>Discounts</h3>
+		<p>This is the only website which has discounts 24/7. Whenever you plan on going for a road trip, we have a discount for you. Considering our client basis a lot of companies are collaborating with us. As a result of this, we always have a discount rate going on. Also considering the client's requirements personal discounts will be arranged accordingly if requested. Roadtrip Sri Lanka has the most flexible rates.</p>
+</div>
+		
+		<div class="col-md-3 text-center">
+	<div class="icon">
+	<i class="material-icons">face</i>
+    </div>
+	<h3>Other</h3>
+		<p>If a client requests a tourist guide, we will be more than happy to provide one. Also if there is any issue in understanding the language we will be providing a person who is not only a tourist guide but also a translator. Likewise, we provide many more services. Do contact us if you need further more details.</p>
+</div>
+</div>
+</div>	
+</section>
+<!-------Where to go------->
+<section id="where-to-go">
+<div class="container">
+<h1>WHERE TO GO</h1>
+<h3>These are our most visited places</h3>
+<p></p>
+<p></p>
+<div class="row">
+<div class="col-md-3 places text-center">
+<div class="img-box">
+<img src="R4.jpg" alt="" class="img-responsive">
+</div>
+	<h4>YALA NATIONAL PARK</h4>
+	<p>Number 01</p>
+	
+	</div>
+
+<div class="col-md-3 places text-center">
+<div class="img-box">
+<img src="R1.jpg" alt="" class="img-responsive">
+</div>
+	<h4>ARUGAM BAY</h4>
+	<p>Number 02</p>
+	
+	</div>
+	
+<div class="col-md-3 places text-center">
+<div class="img-box">
+<img src="R5.jpg" alt="" class="img-responsive">
+</div>
+	<h4>SIGIRIYA</h4>
+	<p>Number 03</p>
+	
+	</div>
+	
+<div class="col-md-3 places text-center">
+<div class="img-box">
+<img src="R6.jpg" alt="" class="img-responsive">
+</div>
+	<h4>TRINCOMALEE</h4>
+	<p>Number 04</p>
+</div>	
+</div>
+</div>
+</section>
+<!----------PROMO---------->
+<section id="promo">
+<div class="container">
+   <p>GET 20% OFF FOR THE ENTIRE PACKAGE IN YOUR 1ST BOOKING WITH ROADTRIP SRI LANKA</p>
+   <a href="#contact" class="btn btn-primary">Contact Us</a>
+</div>
+</section>
+<!--------packages-------->	
+<section id="price">
+<div class="container">
+<h1>PACKAGES</h1>
+<div class="row">
+<div class="col-md-3">
+<div class="single-price">
+<div class="price-head">
+	<h2>Personal</h2>
+</div>
+	<div class="price-content">
+	<ul>
+		<li>Pick one destination
+			<ul>
+				<li>Pigepn Island</li>
+				<li>Kandy</li>
+				<li>Katharagama</li>
+				<li>Yala</li>
+			</ul>
+		</li>
+		<li>Disount will be deducted from the final budget</li>
+		</ul>
+	    </div>
+	<div class="Discount">
+	<h2>5% DISCOUNT</h2>
+	</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="single-price">
+<div class="price-head">
+	<h2>Couple</h2>
+</div>
+	<div class="price-content">
+	<ul>
+		<li>Pick one destination
+			<ul>
+				<li>Nuwara Eliya</li>
+				<li>Arugam Bay</li>
+				<li>Pigeon Island</li>
+				<li>Yala</li>
+			</ul>
+		</li>
+		<li>Disount will be deducted from the final budget</li>
+		</ul>
+	    </div>
+	<div class="Discount">
+	<h2>8% DISCOUNT</h2>
+	</div>
+</div>
+</div>
+	
+<div class="col-md-3">
+<div class="single-price">
+<div class="price-head">
+	<h2>Family</h2>
+</div>
+	<div class="price-content">
+	<ul>
+		<li>Pick one destination
+			<ul>
+				<li>Sigiriya</li>
+				<li>Kandy</li>
+				<li>Katharagama</li>
+				<li>Yala</li>
+			</ul>
+		</li>
+		<li>Disount will be deducted from the final budget</li>
+		</ul>
+	    </div>
+	<div class="Discount">
+	<h2>10% DISCOUNT</h2>
+	</div>
+</div>
+</div>
+	
+<div class="col-md-3">
+<div class="single-price">
+<div class="price-head">
+	<h2>Team</h2>
+</div>
+	<div class="price-content">
+	<ul>
+		<li>Pick one destination
+			<ul>
+				<li>Trincomalee</li>
+				<li>Yala</li>
+				<li>Arugam Bay</li>
+				<li>Galle</li>
+			</ul>
+		</li>
+		<li>Disount will be deducted from the final budget</li>
+		</ul>
+	    </div>
+	<div class="Discount">
+	<h2>13% DISCOUNT</h2>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!---------Client Reviews-------->	
+<section id="Client-Reviews">
+<div class="container">
+<h1>CLIENT REVIEWS</h1>
+<p class="text-center">What Travelers Say?</p>
+<div class="row">
+<div class="col-md-3 text-center">
+<div class="profile">
+<img src="pro1.jpg" alt="" class="user">
+	<blockquote>"Roadtrip Sri Lanka were great from start to finish! Very quick response on the first contact as well as planning our journey attending to our requirements I highly recommend Roadtrip Sri Lanka, as our experience with them was excellent."</blockquote>
+	<h3>Maggie Hudson <span>American</span></h3>
+	</div>	
+	</div>
+	
+<div class="col-md-3 text-center">
+<div class="profile">
+<img src="pro2.jpg" alt="" class="user">
+	<blockquote>"We had a great road trip! My family and kids were really happy throughout the road trip. They met all our expectations from places to visit and hotels chosen. Highly recommend Roadtrip Sri Lanka."</blockquote>
+	<h3>William Matthews <span>French</span></h3>
+	</div>	
+	</div>
+	
+<div class="col-md-3 text-center">
+<div class="profile">
+<img src="pro3.jpg" alt="" class="user">
+	<blockquote>"My husband and I had a great time in Sri Lanka! As this were our 1st time here we got some great deals from Roadtrip Sri Lanka. Also they got us a driver for our 6 day stay that made everything  all possible. I recommend."</blockquote>
+	<h3>Amber Rivera <span>Dutch</span></h3>
+	</div>	
+	</div>
+</div>
+</div>		
+</section>		
+<!---------Contact Us--------->
+<section id="contact">
+<div class="container">
+<h1>CONTACT US</h1>
+<div class="row">
+<div class="col-md-6">
+<form class="contact-form">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Name">
+
+</div>
+	
+<div class="form-group">
+<input type="number" class="form-control" placeholder="Contact Number">
+<p></p>
+</div>
+	
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Email">
+<p></p>
+</div>
+	
+<div class="form-group">
+<textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+<p></p>
+</div>
+<button type="submit" class="btn btn-primary">SUBMIT</button>	
+</form>
+</div>
+<div class="col-md-6 contact-info">
+	<div class="follow"><b>Address:</b><i class="material-icons">location_on</i> 48/5A, Baseline Rd, Colombo</div>
+	<div class="follow"><b>Phone:</b><i class="material-icons">call</i>011456789</div>
+	<div class="follow"><b>Email:</b><i class="material-icons">email</i>roadtrip_srilanka@gmail.com</div>
+    </div>	
+</div>
+</div>		
+</section>
+<!--------Footer--------->
+<section id="footer">
+<div class="container text-center">
+<p><i class="material-icons">hdr_strong</i>2021 All Rights Reserved By Roadtrip Sri Lanka</p>	
+</div>		
+</section>
+<!--------Footer End--------->
+<script src="js/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+		
+</body>
+</html>	
